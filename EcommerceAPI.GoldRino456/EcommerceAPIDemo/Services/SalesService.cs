@@ -147,7 +147,7 @@ public class SalesService : ISalesService
     {
         Sale newSale = new()
         {
-            CreditCardType = dto.creditCardType,
+            CreditCardType = dto.CreditCardType,
             LastFourDigitsOfPaymentCard = dto.LastFourDigitsOfPaymentCard,
             SubTotal = dto.SubTotal,
             SalesTax = dto.SalesTax,
